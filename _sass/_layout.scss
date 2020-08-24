@@ -109,7 +109,7 @@ font-size: 18px;
     border-top-radius: 5px;
 }
 
-.nav a {
+.li a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,7 +127,7 @@ font-size: 18px;
 }
 
 
-.nav a:hover {
+.li a:hover {
     background-color: white;
     color: #6E4B73;
 }
