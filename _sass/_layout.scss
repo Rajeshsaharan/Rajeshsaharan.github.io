@@ -43,7 +43,7 @@ header {
     // Positioning context for the mobile navigation icon
    overflow: auto;
   white-space: nowrap;
-  border-radius: 5px;
+  border-bottom-radius: 5px;
 position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -106,7 +106,7 @@ font-size: 18px;
     background-color: #6E4B73;
     display: flex;
     overflow-x: auto;
-    border-radius: 5px;
+    border-top-radius: 5px;
 }
 
 .nav a {
