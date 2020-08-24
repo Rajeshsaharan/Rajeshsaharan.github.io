@@ -1,12 +1,12 @@
 # Site Settings
-title: Start Jekyll
-email: taniarascia@gmail.com
+title: Rajesh Saharan
+email: 16072000rajesh@gmail.com
 description: >
-  A guide to getting started with Jekyll.
+  A guide to getting start front-end HTML,CSS, javascript (js) or back-end php, Nodejs, or basic ethical Hacking blog. 
 baseurl: ""
-url: "http://Amountwev.github.io"
-twitter_username: taniarascia
-github_username:  taniarascia
+url: "http://rajeshsaharan.github.io"
+twitter_username: Rajestic
+github_username:  Rajeshsaharan
 # Build Settings
 sass:
   sass_dir: _sass
@@ -16,5 +16,7 @@ kramdown:
   input: GFM
 
 
-
- 
+# SEO stuff
+google_author: ""
+google_site_verification: ""
+bing_webmastertools_id: ""
