@@ -1,11 +1,9 @@
 <nav class="nav">
 	
-				{% for page in site.pages %} {% if page.title %}
-				<a href="{{ page.url | prepend: site.baseurl }}"><i class="material-icons fa-3x">dashboard</i>{{ page.title }}</a>
-				{% endif %} {% endfor %}
-				<a href="{{ "/blog" | prepend: site.baseurl }}"><i class="material-icons fa-3x">lock</i><span>lock</span></a>
-                                <a href="{{ "/about" | prepend: site.baseurl }}"><i class="material-icons fa-3x">lock</i><span>lock</span></a>
-                                <a href="{{ "/search" | prepend: site.baseurl }}"><i class="material-icons fa-3x">search</i><span>search</span></a>
+				<a href="{{ "/" | prepend: site.baseurl }}"><i class="material-icons fa-3x">home</i><span>Home</span></a>
+				<a href="{{ "/blog" | prepend: site.baseurl }}"><i class="material-icons fa-3x">bookmarks</i><span>Blog</span></a>
+                                <a href="{{ "/categories" | prepend: site.baseurl }}"><i class="material-icons fa-3x">library_books</i><span>Categories</span></a>
+                                <a href="{{ "/about" | prepend: site.baseurl }}"><i class="material-icons fa-3x">profile</i><span>Contact me</span></a>
 		
 		
 			
