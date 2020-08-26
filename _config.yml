@@ -12,6 +12,7 @@ sass:
   sass_dir: _sass
 
 include: ['_pages']
+       :  ['_categories']
 kramdown:
   input: GFM
 
@@ -22,6 +23,4 @@ google_site_verification: ""
 bing_webmastertools_id: ""
 
 
-collections:
-  categories:
-    output: true
+
