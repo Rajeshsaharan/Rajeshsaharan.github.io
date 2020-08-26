@@ -1,16 +1,11 @@
-{% for post in site.posts %}
-  {% assign c = post.categories | join: "," %}
-  {% if c != "" %}
-    {% capture categories %}{{categories}},{{c}}{% endcapture %}
-  {% endif %}
-{% endfor %}
+---
+layout: page
+permalink: /categories/
+title: Categories
+---
 
-{% assign categories = categories | split: "," | uniq | sort: self %}
-{% assign catobjs = site.categories | sort: "tag" %}
-{% for category in catobjs %}
-  {% for cat in categories %}
-    {% if cat == category.tag %}
-      <h1><a href="{{category.permalink}}">{{category.title}}</a></h1>
-    {% endif %}
-  {% endfor %}
+
+
+{% for post in site.categories.sample %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
