@@ -21,7 +21,7 @@ google_author: ""
 google_site_verification: ""
 bing_webmastertools_id: ""
 
-- scope:
-      path: "_categories"
-    values:
-      layout: "category"
+
+collections:
+  categories:
+    output: true
