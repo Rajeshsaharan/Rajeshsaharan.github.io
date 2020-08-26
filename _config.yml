@@ -12,7 +12,7 @@ sass:
   sass_dir: _sass
 
 include: ['_pages']
-       :  ['_categories']
+      
 kramdown:
   input: GFM
 
