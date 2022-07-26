@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* utility class start */
+
+.btn{
+    background-color: rgb(14, 14, 116);
+    color: white;
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+/* utility class end */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 100vh;
+
+}
+
+.task1{
+    text-align: center;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+}
+
+canvas{
+    border: 1px solid red;
+}
+
+
+

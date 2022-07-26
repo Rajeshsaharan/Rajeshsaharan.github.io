@@ -1,0 +1,1 @@
+var galaxy = new CanvasZoom( document.getElementById('drawarea'), "https://i.ibb.co/vLfDqgB/shapes-gradient-abstract-light-blue-background-5k-5000x5000-8192.jpg", 500, 700 );

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="/assignment/task2/canvaszoom.min.js"></script>
+  <script type="text/javascript" src="/assignment/task2/imageloader.min.js"></script>
+    <!-- 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js" integrity="sha512-1+czAStluVmzKLZD98uvRGNVbc+r9zLKV4KeAJmvikygfO71u3dtgo2G8+uB1JjCh2GVln0ofOpz9ZTxqJQX/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+      <!-- for using Es6 module type attribuate must be "module" -->
+    <script src="index.js" defer></script> 
+    <!--  -->
+
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body>
+    <main>
+      <div class="task1">
+        <h1>Task 1</h1>
+      </div>
+        <canvas id="drawarea" width="900" height="500" ></canvas>
+        <input type="button" value="Zoom in" onclick="galaxy.zoomInCentre()"/>
+        <input type="button" value="Zoom out" onclick="galaxy.zoomOutCentre()"/>
+    </main>
+
+  </body>
+</html>
